@@ -62,12 +62,13 @@ body {
 #es-rc #es-rc-content .es-kv__logoCtn {
   background: #FFFFFF;
   padding-block: 6px;
-  overflow: hidden;
 }
 
 #es-rc #es-rc-content .es-kv__logoCtn img {
   max-width: 250px;
   margin-bottom: -18px;
+  position: relative;
+  z-index: 2;
 }
 
 #es-rc #es-rc-content .es-kv__right--bgWrapper {
@@ -410,7 +411,7 @@ body {
   gap: 32px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 376px) {
   #es-rc #es-rc-content .es-kv__banner {
     font-size: 26px;
   }
